@@ -1,0 +1,16 @@
+<html>
+<head>
+</head>
+<body>
+    <form action="http://localhost:8090/image/upload" method="post" enctype="multipart/form-data">
+      <p><input type="file" name="image">
+      <select name="imageSize">
+        <option value="ORIGINAL" default>Original</option>
+        <option value="SQUARE_SMALL">Small Square</option>
+        <option value="SQUARE_MEDIUM">Medium Square</option>
+        <option value="Large">Large</option>
+      </select>
+      <p><button type="submit">Submit</button>
+    </form>
+</body>
+</html>

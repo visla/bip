@@ -1,0 +1,7 @@
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+AWS_REGION=us-west-2
+S3_BUCKET=
+S3_BUCKET_URL=
+MAX_PARALLEL_UPLOADS=10
+SPRING_APPLICATION_JSON={"server":{"port":80},"spring":{"http":{"multipart":{"max-file-size":"4MB","max-request-size":"4MB"}}},"endpoints":{"metrics":{"sensitive":false}},"resilience4j":{"circuitbreaker":{"backends":{"imageUpload":{"ringBufferSizeInClosedState":5,"ringBufferSizeInHalfOpenState":1,"waitInterval":30000,"failureRateThreshold":50.0,"eventConsumerBufferSize":10}}}}}

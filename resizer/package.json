@@ -1,0 +1,23 @@
+{
+  "name": "bip-resizer",
+  "version": "1.0.0",
+  "description": "Image resizer microservice using imagemagick for image manipulation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.4.2",
+    "body-parser": "~1.0.0",
+    "busboy": "^0.2.11",
+    "express": "^4.13.3",
+    "gm": "^1.20.0",
+    "jsonschema": "^1.0.2",
+    "mime-types": "^2.1.7",
+    "moment": "^2.10.6",
+    "node-uuid": "^1.4.3",
+    "winston": "*"
+  }
+}

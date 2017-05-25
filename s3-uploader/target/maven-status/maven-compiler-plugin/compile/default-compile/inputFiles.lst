@@ -1,0 +1,12 @@
+/usr/src/app/src/main/java/bip/utilities/ImageSizes.java
+/usr/src/app/src/main/java/bip/utilities/NameUtil.java
+/usr/src/app/src/main/java/bip/utilities/ImageResizeService.java
+/usr/src/app/src/main/java/bip/error/ApiErrorResponse.java
+/usr/src/app/src/main/java/bip/controller/UploadResult.java
+/usr/src/app/src/main/java/bip/utilities/ImageUploaderService.java
+/usr/src/app/src/main/java/bip/error/ServiceNotAvailableException.java
+/usr/src/app/src/main/java/bip/Main.java
+/usr/src/app/src/main/java/bip/controller/UploadController.java
+/usr/src/app/src/main/java/bip/utilities/ImageResizeResult.java
+/usr/src/app/src/main/java/bip/error/UploadImageExceptionHandler.java
+/usr/src/app/src/main/java/bip/utilities/S3Uploader.java
